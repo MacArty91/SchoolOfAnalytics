@@ -1,9 +1,9 @@
 USE schoolAnalytics
 
-create table "Студенты"
+create table "РЎС‚СѓРґРµРЅС‚С‹"
 (
-	"Идентификатор" int unique,
-	"Имя" nvarchar(100),
-	"Фамилия" nvarchar(100),
-	PRIMARY KEY("Идентификатор")
+	"РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ" int unique,
+	"РРјСЏ" nvarchar(100),
+	"Р¤Р°РјРёР»РёСЏ" nvarchar(100),
+	PRIMARY KEY("РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ")
 )
